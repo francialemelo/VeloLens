@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact — VELO LENS</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="../css/style.css" />
+	</head>
+	<body>
+		
+		<!-- NAVIGATION -->
+		<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<span class="brand-icon">V</span>
+					<span class="brand-text">VELO<span class="brand-accent">LENS</span></span>
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navContent"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navContent">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="features.html">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item ms-lg-3">
+							<a class="btn btn-cta-sm" href="contact.html">Pre-Order</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--
+		PAGE HERO -->
+
+		<section class="page-hero">
+			<div class="container">
+				<div class="row align-items-center">
+					<!-- COLUNA ESQUERDA: texto -->
+					<div class="col-lg-7">
+						<p class="hero-eyebrow">Get in Touch</p>
+						<h1 class="page-hero-title">
+							Contact &<br /><span class="text-teal">Pre-Order</span>
+						</h1>
+						<p class="page-hero-sub">
+							Register your interest, ask a question, or get in touch with the VELO
+							LENS team. We launch Spring 2026 in Ireland and the UK.
+						</p>
+					</div>
+
+					<!-- COLUNA DIREITA: imagem -->
+					<div class="col-lg-5 d-flex justify-content-center align-items-center">
+						<img
+							src="../assets/ImageVeloLens.jpg"
+							alt="VeloLens smart cycling goggles"
+							class="hero-img"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CONTACT SECTION -->
+		<section class="section-dark py-5">
+			<div class="container py-5">
+				<div class="row g-5">
+					<!-- FORM -->
+					<div class="col-lg-7">
+						<p class="section-eyebrow">Send a Message</p>
+						<h2 class="section-title mb-4">
+							Pre-Order <span class="text-teal">Interest Form</span>
+						</h2>
+						<form class="contact-form" id="contactForm" method = POST >
+							<div class="row g-3">
+								<div class="col-md-6">
+									<label class="form-label">First Name</label>
+									<input
+										type="text"
+										class="form-input"
+										placeholder="Your first name"
+										required
+									/>
+								</div>
+								<div class="col-md-6">
+									<label class="form-label">Last Name</label>
+									<input
+										type="text"
+										class="form-input"
+										placeholder="Your last name"
+										required
+									/>
+								</div>
+								<div class="col-12">
+									<label class="form-label">Email Address</label>
+									<input
+										type="email"
+										class="form-input"
+										placeholder="your@email.com"
+										required
+									/>
+								</div>
+								<div class="col-12">
+									<label class="form-label"
+										>I am interested in VELO LENS for...</label
+									>
+									<select class="form-input">
+										<option value="">Select an option</option>
+										<option>Daily commute cycling</option>
+										<option>Road cycling / sport</option>
+										<option>Mountain biking</option>
+										<option>Casual weekend cycling</option>
+									</select>
+								</div>
+								<div class="col-12">
+									<label class="form-label">Message</label>
+									<textarea
+										class="form-input form-textarea"
+										rows="5"
+										placeholder="Tell us about your interest, or ask us anything about VELO LENS..."
+									></textarea>
+								</div>
+								<div class="col-12">
+									<button type="submit" class="btn btn-primary-cta w-100">
+										Send Message <i class="fa-solid fa-paper-plane ms-2"></i>
+									</button>
+								</div>
+							</div>
+						</form>
+						<div class="form-success" id="formSuccess" style="display: none">
+							<i class="fa-solid fa-circle-check"></i>
+							<div>
+								<strong>Message sent!</strong><br />
+								We'll be in touch soon about your VELO LENS pre-order interest.
+							</div>
+						</div>
+					</div>
+
+					<!-- PHOTO GRID -->
+<div class="col-lg-5">
+    <div class="row g-2">
+        <div class="col-6">
+            <img src="../assets/ImageCommuter2.jpg" alt="Cyclist in Galway" class="contact-photo" />
+        </div>
+        <div class="col-6">
+            <img src="../assets/ImageVeloLens3.jpg" alt="Cyclist in Galway" class="contact-photo" />
+        </div>
+        <div class="col-6">
+            <img src="../assets/ImageCommuter.jpg" alt="Cycling commuter" class="contact-photo" />
+        </div>
+        <div class="col-6">
+            <img src="../assets/ImageVeloLens4.jpg" alt="Smart goggles detail" class="contact-photo" />
+        </div>
+        <div class="col-6">
+            <img src="../assets/ImageCommuter3.jpg" alt="Student cyclist" class="contact-photo" />
+        </div>
+        <div class="col-6">
+            <img src="../assets/imageEarsFull.jpg" alt="Smart LENS ears version" class="contact-photo" />
+        </div>
+    </div>
+</div>
+		</section>
+
+		
+	<!-- FOOTER -->
+<footer class="site-footer py-4">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+				<a class="footer-brand" href="index.html">
+					<span class="brand-icon">V</span>
+					<span class="brand-text">VELO<span class="brand-accent">LENS</span></span>
+				</a>
+			</div>
+			<div class="col-md-4 text-center mb-3 mb-md-0">
+				<nav class="footer-nav">
+					<a href="index.html">Home</a>
+					<a href="features.html">Features</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+			</div>
+		
+</footer>
+	</body>
+</html>
